@@ -1,0 +1,32 @@
+[project]
+name = "backscroll"
+version = "0.1.0"
+description = "A local, searchable memory of everything on your screen -- queryable by Claude via MCP. An open-source, zero-dependency Screenpipe alternative."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "EarthPilot" }]
+keywords = ["screenpipe", "rewind", "ocr", "mcp", "claude", "screen-recording", "personal-memory"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/earthpilot/backscroll"
+Repository = "https://github.com/earthpilot/backscroll"
+
+[project.scripts]
+backscroll = "backscroll.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["backscroll"]
+
+[tool.setuptools.package-data]
+backscroll = ["ocr_helper/*.swift"]

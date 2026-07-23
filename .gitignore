@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Compiled OCR helper (built per machine)
+bsocr
+backscroll/ocr_helper/bsocr
+
+# Local capture data -- NEVER commit anyone's screen history
+.backscroll/
+frames/
+*.db
+*.db-wal
+*.db-shm
+
+.DS_Store
