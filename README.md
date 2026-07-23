@@ -46,7 +46,7 @@ your screen  ->  screencapture  ->  Vision OCR  ->  SQLite + FTS5
 ## Install
 
 ```bash
-git clone https://github.com/earthpilot/backscroll.git
+git clone https://github.com/AnthonyDavidAdams/backscroll.git
 cd backscroll
 pip install -e .          # installs the `backscroll` command
 ```

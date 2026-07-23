@@ -15,8 +15,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/earthpilot/backscroll"
-Repository = "https://github.com/earthpilot/backscroll"
+Homepage = "https://github.com/AnthonyDavidAdams/backscroll"
+Repository = "https://github.com/AnthonyDavidAdams/backscroll"
 
 [project.scripts]
 backscroll = "backscroll.cli:main"
